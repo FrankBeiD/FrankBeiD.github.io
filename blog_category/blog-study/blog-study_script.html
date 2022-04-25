@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>General</title>
+  <title>脚本使用教程</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -26,6 +26,7 @@
 
   <!-- Template Main CSS File -->
   <link href="../../assets/css/style.css" rel="stylesheet">
+
 
   <!-- =======================================================
   * Template Name: Tempo - v4.7.0
@@ -82,14 +83,15 @@
 
         <ol>
           <li><a href="../../index.html">Home</a></li>
-          <li>General</li>
+          <li><a href="blog-study.html">Study</a></li>
+          <li>油猴脚本</li>
         </ol>
-        <h2>General</h2>
+        <h2>脚本使用教程</h2>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <!-- ======= Blog Section ======= -->
+    <!-- ======= Blog Single Section ======= -->
     <section id="blog" class="blog">
       <div class="container" data-aos="fade-up">
 
@@ -97,72 +99,170 @@
 
           <div class="col-lg-8 entries">
 
-            <article class="entry">
+            <article class="entry entry-single">
 
               <div class="entry-img">
-                <img src="https://p2.itc.cn/q_70/images03/20211227/fc3c428ebce34249b56de5d73dfb68a2.jpeg" alt="" class="img-fluid">
+                <img src="https://cdn.sspai.com/article/759989f9-e744-50e3-2585-23ad1c5f4e76.jpg?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1" alt="" class="img-fluid">
               </div>
 
               <h2 class="entry-title">
-                <a href="../../blog_category/blog-general/blog-general-studio_share.html">分享一下影视资源</a>
+                <a>大学生都需要知道的Google「神器」扩展：<br>
+                  「油猴」使用详解</a>
               </h2>
 
               <div class="entry-meta">
                 <ul>
                   <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="/blog_category/blog-general/blog-general-website_introduction.html">Frank</a></li>
-                  <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a><time datetime="2022-04-15">Apr 17, 2022</time></a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a><time datetime="2022-04-25">Apr 25, 2022</time></a></li>
+
+                  <!--
+                  <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-general-website_introduction.html">12 Comments</a></li>
+                  -->
                 </ul>
               </div>
 
               <div class="entry-content">
                 <p>
-                  随便分享一点自己在收集到的影视资源，也是我自己经常用的网站，基本上也可以看所有类型的影视，例如美剧、日漫、电影等等。
+                  你可能听说过「油猴」，但是因为看到「脚本」而不敢尝试，其实它的操作非常简单，只要经过简单设置，下载一些现成脚本，就可以实现下面提到的实用的功能。
                 </p>
-                <div class="read-more">
-                  <a href="../../blog_category/blog-general/blog-general-studio_share.html">Read More</a>
-                </div>
+
+                <p>
+                  例如直接下载百度网盘文件、刷学习通智慧树网课、去视频播放广告、下载网页视频等等
+                </p>
+
+                <blockquote>
+                  <p>
+                    前言
+                  </p>
+                </blockquote>
+
+                <p>
+                  「油猴脚本」很多朋友都听说过了，就是一段 JS 脚本代码，和浏览器扩展类似，可以让浏览器实现各种各样的增强功能。
+
+                  它相比扩展更加轻量利落，仅在适配的站点才会启用，非常节省资源。
+
+                  本篇包括脚本管理扩展、脚本安装、使用、备份全面介绍，方便不熟悉的用户开启油猴脚本开挂之旅~
+                </p>
+
+                <h3>①如何使用Tampermonkey</h3>
+                <p>
+                  如果能正常访问 Chrome 应用商店，可以直接在商店内下载<a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo" target="_blank"> Tampermonkey。</a>
+                </p>
+
+                <p>
+                  首先我们先打开<a href=https://www.tampermonkey.net/" target="_blank">Tampermonkey</a>官网，安装对应版本驱动。
+                </p>
+
+                <img src="https://pic2.zhimg.com/80/v2-22535a395f79e821f46d3c42e916c879_1440w.jpg" class="img-fluid" alt="">
+
+                <p>
+                  安装好后自动启用，扩展区域会出现相应扩展图标。如果未启用，可以去浏览器设置里的扩展程序中打开
+                </p>
+
+                <h3>②安装油猴脚本</h3>
+
+                <p>
+                  脚本网站推荐
+                </p>
+
+                <P>
+                  可以在下面三个网站/工具上查找、安装脚本。<br>
+                  ○<a href="https://greasyfork.org/zh-CN" target="_blank">Greasy Fork – 安全、实用的用户脚本大全</a><br>
+                  最受欢迎，支持中文，脚本资源丰富，体验好，推荐首选！<br>
+                  ○<a href="https://openuserjs.org/" target="_blank">OpenUserJS</a><br>
+                  主要为英文资源，无中文界面，国内速度可能不是很好。<br>
+                </P>
+
+                <p>
+                  以Greasy Fork为例，打开网站，搜索需要的脚本，我这里以刷课脚本为例。
+                </p>
+                <img src="https://s2.loli.net/2022/04/25/Pc3CYArE7WFSb8g.png" class="img-fluid" alt="">
+
+                <P>
+                  选择一个脚本
+                </P>
+
+                <img src="https://s2.loli.net/2022/04/25/p2CNtgMJlok5mLi.png" class="img-fluid" alt="">
+
+                <p>
+                  跳转至安装页面，再次点 “安装” 即可完成脚本安装。
+                </p>
+
+                <img src="https://s2.loli.net/2022/04/25/qXl5j7T29zPOgUS.png" class="img-fluid" alt="">
+
+                <h3>③使用与管理</h3>
+                <p>
+                  脚本安装完成后，会在有效的网站上自动启用，而不在 “启用 URL” 站点列表里的网站则不启用。因此不必担心脚本安装过多会影响效率。
+                </p>
+
+                <p>
+                  在浏览器扩展，可以快捷查看和管理脚本。点击图标查看详情、开关脚本。
+                </p>
+
+                <img src="https://s2.loli.net/2022/04/25/rpTaGM3CZg2ohNL.png" class="img-fluid" alt="">
+
+                <img src="https://pic2.zhimg.com/80/v2-682dc75260f519287a7a75fc653b0b35_1440w.jpg" class="img-fluid" alt="">
+
+                <P>
+                  进入 “管理面板” 管理已安装脚本。可以进行开关、更新、编辑、删除等操作。当然，也可以添加自己写的脚本。
+                </P>
+
+                <img src="https://pic1.zhimg.com/v2-6a9a3d2f344a8981b2d52c7f4e3b96f4_r.jpg" class="img-fluid" alt="">
+
+                <p>
+                  网上有很多别人推荐的脚本，可以自行百度，我这就不多赘言了。
+                </p>
+
+                <blockquote>
+                  <p>
+                    结语
+                  </p>
+                </blockquote>
+
+                <p>
+                  油猴脚本是个很强大的浏览器辅助工具，而且相比于浏览器插件来说，占用资源极小，却可以实现丰富的功能，极大的提高了我们的浏览和操作体验，十分方便。
+                  尤其是对于我们大学生的水课，再也不用手动刷课了。灰常的好用呀！
+                </p>
+
               </div>
 
-            </article>
-            <!-- 影视分享 -->
+              <div class="entry-footer">
+                <i class="bi bi-folder"></i>
+                <ul class="cats">
+                  <li><a href="../../blog_category/blog-game/blog-game.html">Study</a></li>
+                </ul>
 
-            <article class="entry">
-
-              <div class="entry-img">
-                <img src="https://pic2.zhimg.com/v2-4d2704ebfd9b58700fbbf3e32200f49b_r.jpg" alt="" class="img-fluid">
-              </div>
-
-              <h2 class="entry-title">
-                <a href="../../blog_category/blog-general/blog-general-website_introduction.html">关于个人以及网站的介绍</a>
-              </h2>
-
-              <div class="entry-meta">
-                <ul>
-                  <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="/blog_category/blog-general/blog-general-website_introduction.html">Frank</a></li>
-                  <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a><time datetime="2022-04-15">Apr 15, 2022</time></a></li>
+                <i class="bi bi-tags"></i>
+                <ul class="tags">
+                  <li><a>Enjoyable</a></li>
+                  <li><a>Introduction</a></li>
                 </ul>
               </div>
 
-              <div class="entry-content">
-                <p>
-                  稍微介绍一下我自己的这个Blog网站...
-                </p>
-                <div class="read-more">
-                  <a href="../../blog_category/blog-general/blog-general-website_introduction.html">Read More</a>
-                </div>
-              </div>
-
             </article>
-            <!-- 个人网站介绍 -->
+            <!-- End blog entry -->
 
-            <div class="blog-pagination">
-              <ul class="justify-content-center">
-                <li class="active"><a>1</a></li>
-              </ul>
+            <!--
+            <div class="blog-author d-flex align-items-center">
+              <img src="assets/img/blog/blog-author.jpg" class="rounded-circle float-left" alt="">
+              <div>
+                <h4>Jane Smith</h4>
+                <div class="social-links">
+                  <a href="https://twitters.com/#"><i class="bi bi-twitter"></i></a>
+                  <a href="https://facebook.com/#"><i class="bi bi-facebook"></i></a>
+                  <a href="https://instagram.com/#"><i class="biu bi-instagram"></i></a>
+                </div>
+                <p>
+                  Itaque quidem optio quia voluptatibus dolorem dolor. Modi eum sed possimus accusantium. Quas repellat voluptatem officia numquam sint aspernatur voluptas. Esse et accusantium ut unde voluptas.
+                </p>
+              </div>
             </div>
+            -->
+            <!-- End blog author bio -->
 
-          </div>
-          <!-- End blog entries list -->
+
+
+          </div><!-- End blog entries list -->
 
           <div class="col-lg-4">
 
@@ -224,7 +324,7 @@
         </div>
 
       </div>
-    </section><!-- End Blog Section -->
+    </section><!-- End Blog Single Section -->
 
   </main><!-- End #main -->
 
@@ -258,7 +358,7 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Web Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="../../blog_category/blog-general/blog-general-website_introduction.html">Web Introduction</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/blog_category/blog-general/blog-general-website_introduction.html">Web Introduction</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">建设中...</a></li>
             </ul>
           </div>
@@ -281,7 +381,7 @@
 
       <div class="me-md-auto text-center text-md-start">
         <div class="copyright">
-          &copy; Copyright <strong><span><a> Frank</a></span></strong>. All Rights Reserved
+          &copy; Copyright <strong><span><a href="../../blog_category/blog-TiZi/blog-TiZi-TiZi_share.html" style="color:black"> Frank</a></span></strong>. All Rights Reserved
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
@@ -313,6 +413,7 @@
 
   <!-- Template Main JS File -->
   <script src="../../assets/js/main.js"></script>
+
 
 </body>
 
